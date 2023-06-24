@@ -2,7 +2,7 @@ import { Selector } from '../../enums/selector';
 import { LoggerService } from '../logger/logger.service';
 import { PuppeteerService } from '../puppeteer/puppeteer.service';
 
-class PomodoroService {
+export class PomodoroService {
 	logger = new LoggerService();
 	constructor(private page: PuppeteerService) {}
 

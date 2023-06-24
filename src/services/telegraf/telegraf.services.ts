@@ -12,6 +12,7 @@ export class TelegrafServices {
 
 	async init(): Promise<void> {
 		this.bot = new Telegraf(this.token);
+		this.logger.info('Bot is running');
 		await this.bot.launch();
 	}
 
