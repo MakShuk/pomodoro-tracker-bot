@@ -7,4 +7,5 @@ export enum Selector {
 	startBtn = 'body > div > main > div > pomodoro-timer > div > div.c-timer_buttons > button:nth-child(1)',
 	stopBtn = 'body > div > main > div > pomodoro-timer > div > div.c-timer_buttons > button:nth-child(2)',
 	statusLoadind = '.u-mv2',
+	timer = '.c-timer_time',
 }
