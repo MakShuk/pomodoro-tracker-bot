@@ -8,4 +8,6 @@ export enum Selector {
 	stopBtn = 'body > div > main > div > pomodoro-timer > div > div.c-timer_buttons > button:nth-child(2)',
 	statusLoadind = '.u-mv2',
 	timer = '.c-timer_time',
+	currentTask = 'body > div > main > div > pomodoro-timer > div > div.c-timer_description > todo-current > markdown',
+	breac = 'body > div > main > div > pomodoro-timer > div > div.c-timer_head > div.c-head.u-right.u-noselect.u-nodrag',
 }

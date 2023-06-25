@@ -1,3 +1,3 @@
 export enum Path {
-	cookie = 'json/cookie.json',
+	cookie = 'src/json/cookie.json',
 }

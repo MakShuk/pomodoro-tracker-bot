@@ -1,4 +1,0 @@
-enum ActionType {
-	click,
-	getTextContent,
-}
