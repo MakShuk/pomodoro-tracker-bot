@@ -10,6 +10,7 @@ config/
 
 # Environment files
 .env
+cookie.json
 
 # Logs
 logs/
