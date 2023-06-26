@@ -7,7 +7,6 @@ config/
 /voices/*
 /documents/*
 
-
 # Environment files
 .env
 cookie.json
@@ -31,4 +30,4 @@ Thumbs.db
 #media 
 .ogg
 .mp3
-
+.jpg

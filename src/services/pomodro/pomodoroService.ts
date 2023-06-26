@@ -54,7 +54,6 @@ export class PomodoroService {
 
 	private async init(): Promise<void> {
 		await this.page.pageOpen();
-		await this.page.delay(2000);
 		await this.getStatus();
 	}
 
@@ -76,5 +75,12 @@ export class PomodoroService {
 		await this.init();
 		await this.page.screenshot();
 		await this.close();
+	}
+
+	async isLogin(): Promise<boolean> {
+		await this.init();
+		const login = await this.page.getTextContent(Selector.loginStatus);
+		console.log(login?.trim() === 'Sign Up / Login');
+		return login?.trim() === 'Sign Up / Login' ? false : true;
 	}
 }

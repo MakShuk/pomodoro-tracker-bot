@@ -1,5 +1,5 @@
 import { Path } from '../enums/path';
-import { WriteStream, createWriteStream, createReadStream, ReadStream } from 'fs';
+import { createReadStream } from 'fs';
 import { Url } from '../enums/url';
 import { PomodoroService } from '../services/pomodro/pomodoroService';
 import { PuppeteerService } from '../services/puppeteer/puppeteer.service';
